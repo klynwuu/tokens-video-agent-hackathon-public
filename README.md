@@ -52,4 +52,4 @@ Original media and private databases are excluded. The two requested output MP4s
 python3 scripts/validate.py
 ```
 
-The validator checks JSON references, output hashes, prohibited personal markers, static paths and excluded files. All work remains local and uncommitted; no comments, commits, push or deployment are performed.
+The validator checks JSON references, output hashes, prohibited personal markers, static paths and excluded files. Starting the local demo does not automatically commit, push, comment or deploy anything.
