@@ -1,0 +1,50 @@
+/* Agent controls reuse the approved Classic console palette. Laptop only. */
+.context-button{display:flex;align-items:center;justify-content:space-between;width:100%;margin-top:12px;padding:9px 8px;font:5px/1.6 var(--pixel);color:#a1eaff;border:1px solid #585275;background:#201b36;box-shadow:inset 0 1px #8178ac40}
+.context-button b{font:14px Arial}
+.agent-state{display:flex;gap:10px;padding:9px 17px;background:#0c0d1a;border-bottom:1px solid #373950;justify-content:space-between}
+.agent-state>span{font:4px/1.8 var(--pixel);color:#9398b9}
+.agent-state b{display:block;color:#9ddfff;font:10px Arial;margin-top:3px;font-weight:400}
+.chat-messages{height:142px;padding-top:11px}
+.chat-date{margin-bottom:9px}
+.message{margin-bottom:11px}
+.chat-form textarea{height:82px;padding-top:10px}
+.edit-options{display:grid;grid-template-columns:142px minmax(140px,1fr);gap:9px 10px;margin:10px 15px 12px}
+.edit-options label,.option-label{font:5px/1.6 var(--pixel);color:#a8accd}
+.edit-options select{display:block;margin-top:5px;height:30px;padding:5px 6px;font:10px Arial;box-shadow:0 1px #383d57}
+.duration-control .option-label{display:block}
+.duration-control>div{display:flex;gap:5px;margin-top:5px}
+.duration-control button{flex:1;height:30px;padding:5px;font:5px var(--pixel);color:#41445e;background:linear-gradient(#eceef7,#b6bdd1);border:1px solid;border-color:#f4f6ff #737b96 #6c748f #e6eaff;box-shadow:1px 1px #32374f}
+.duration-control button[aria-pressed=true]{color:#fff;background:linear-gradient(#8a73d9,#5b49a3);border-color:#cfbfff #4c3975 #3a2c60 #bca9f2;box-shadow:inset 0 0 0 1px #c8b7ff50}
+.plan-strip{padding-top:8px;padding-bottom:8px;gap:5px}
+.plan-strip span{font-size:5px}
+.render-steps{display:flex;gap:8px}
+.render-steps span{font:4px var(--pixel);color:#8581a9;padding:6px;border:1px solid #464064}
+.render-steps span.active{color:#78eeff;border-color:#70c9e8;background:#25304f}
+.render-steps span.done{color:#8ff4c9;border-color:#447969}
+#renderStage{font:15px/1.25 var(--terminal);max-width:90%;text-align:center;min-height:36px}
+.render-overlay{gap:14px}
+#settingsDialog{width:740px;max-height:88vh;overflow:auto;padding:25px 28px}
+#settingsDialog h2{margin:12px 0 16px;font-size:13px}
+#settingsDialog>p{font-size:12px;line-height:1.6;margin:12px 0 16px}
+.active-runtime{padding:10px 12px;background:#273251;border:1px solid #6bbfdb;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.active-runtime b{font:6px var(--pixel);color:#8ff0ff;white-space:nowrap}
+.active-runtime span{font-size:10px;color:#b5c4e9}
+.settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px}
+.settings-grid .wide-field{grid-column:1/-1}
+#settingsDialog label{font-size:6px;line-height:1.6;margin:0 0 7px;display:flex;justify-content:space-between}
+#settingsDialog input,#settingsDialog select{height:35px;font-size:12px;padding:8px}
+#settingsDialog small{font-size:10px;margin:6px 0 0;line-height:1.5}
+.field-hint{color:#888dab;font-size:4px}
+.settings-section-title{font:6px var(--pixel);color:#a2d9fa;padding:12px 0 9px;margin-top:12px;border-top:1px solid #464862}
+.resource-settings{display:flex;gap:16px;justify-content:space-between;padding:9px 11px;background:#121424;border:1px solid #3d405b}
+.resource-settings span{font-size:10px;color:#9ea9cc;line-height:1.5}
+.resource-settings b{display:block;color:#d3dbf5;font-weight:400;margin-bottom:3px}
+.settings-footer{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:18px}
+.settings-footer>span{font-size:10px;color:#969ebf}
+.settings-footer .primary-button{height:35px;font-size:7px}
+.context-facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.context-facts span{background:#111628;border:1px solid #3f4d70;padding:11px;color:#bfccee;font-size:11px}
+.context-facts b{display:block;font:7px var(--pixel);color:#8edfff;margin-bottom:8px}
+#contextBrief{padding:12px;background:#243554;border:1px solid #567cab;color:#e7f1ff}
+#planExplanation{font-size:12px}
+footer{margin-top:19px}

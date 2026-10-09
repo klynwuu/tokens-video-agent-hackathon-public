@@ -1,0 +1,205 @@
+[
+  {
+    "width": 2720,
+    "height": 2040,
+    "duration_s": 55.424,
+    "is_hdr": 0,
+    "is_log": 0,
+    "color_transfer": "bt709",
+    "position": 40,
+    "transcript": [
+      {
+        "start_s": 1.12,
+        "end_s": 2.96,
+        "text": "哎，不过我很奇怪，我觉得这边"
+      },
+      {
+        "start_s": 8.64,
+        "end_s": 11.84,
+        "text": "好像有什么在叫的声音，"
+      },
+      {
+        "start_s": 12.48,
+        "end_s": 15.04,
+        "text": "什么闹鬼啊？"
+      },
+      {
+        "start_s": 15.04,
+        "end_s": 16.8,
+        "text": "我操！"
+      },
+      {
+        "start_s": 16.8,
+        "end_s": 18.72,
+        "text": "我等一下。"
+      },
+      {
+        "start_s": 19.84,
+        "end_s": 21.76,
+        "text": "我靠！操！"
+      },
+      {
+        "start_s": 22.32,
+        "end_s": 26.8,
+        "text": "这边居然是在 data center 撞游戏机，"
+      },
+      {
+        "start_s": 28.32,
+        "end_s": 28.64,
+        "text": "就是"
+      },
+      {
+        "start_s": 30.4,
+        "end_s": 34.4,
+        "text": "那个 X 战警的和那个啊街霸，"
+      },
+      {
+        "start_s": 35.12,
+        "end_s": 36.0,
+        "text": "哇街霸跑位，"
+      },
+      {
+        "start_s": 37.44,
+        "end_s": 41.68,
+        "text": "还有摩托车，难怪啊！"
+      },
+      {
+        "start_s": 41.68,
+        "end_s": 44.16,
+        "text": "还有叫的声音，吓死我了，"
+      },
+      {
+        "start_s": 44.56,
+        "end_s": 48.16,
+        "text": "我以为闹鬼了。"
+      }
+    ],
+    "id": "asset-0041",
+    "path": "media/originals/asset-0041.mov"
+  },
+  {
+    "width": 2720,
+    "height": 2040,
+    "duration_s": 54.187467,
+    "is_hdr": 0,
+    "is_log": 0,
+    "color_transfer": "bt709",
+    "position": 37,
+    "transcript": [],
+    "id": "asset-0038",
+    "path": "media/originals/asset-0038.mov"
+  },
+  {
+    "width": 3840,
+    "height": 2160,
+    "duration_s": 34.7817,
+    "is_hdr": 0,
+    "is_log": 0,
+    "color_transfer": "bt709",
+    "position": 69,
+    "transcript": [
+      {
+        "start_s": 0.0,
+        "end_s": 4.08,
+        "text": "哎，我们不知道你们听得见听不见，"
+      },
+      {
+        "start_s": 4.48,
+        "end_s": 7.44,
+        "text": "但是现在在这个 data center 里面，"
+      },
+      {
+        "start_s": 7.52,
+        "end_s": 9.44,
+        "text": "这个噪音，然后各方面，"
+      },
+      {
+        "start_s": 9.92,
+        "end_s": 12.8,
+        "text": "我现在是充分理解美国的老百姓为什么是"
+      },
+      {
+        "start_s": 12.88,
+        "end_s": 15.84,
+        "text": "反对 data center，然后对，"
+      },
+      {
+        "start_s": 16.0,
+        "end_s": 18.48,
+        "text": "其实一般就是在这种偏僻的地方，"
+      },
+      {
+        "start_s": 19.12,
+        "end_s": 22.72,
+        "text": "然后现在全部都是这些风扇和这种服务器的"
+      },
+      {
+        "start_s": 22.8,
+        "end_s": 27.2,
+        "text": "声音，然后因为我戴着那个 AirPods，哇，"
+      },
+      {
+        "start_s": 27.84,
+        "end_s": 33.12,
+        "text": "耶，这就是您所看到的 AI 的背后。"
+      }
+    ],
+    "id": "asset-0070",
+    "path": "media/originals/asset-0070.mov"
+  },
+  {
+    "width": 2160,
+    "height": 3840,
+    "duration_s": 7.3667,
+    "is_hdr": 0,
+    "is_log": 0,
+    "color_transfer": "bt709",
+    "position": 79,
+    "transcript": [],
+    "id": "asset-0079",
+    "path": "media/originals/asset-0079.mov"
+  },
+  {
+    "width": 2560,
+    "height": 1440,
+    "duration_s": 52.4,
+    "is_hdr": 0,
+    "is_log": 0,
+    "color_transfer": "smpte170m",
+    "position": 81,
+    "transcript": [
+      {
+        "start_s": 2.32,
+        "end_s": 3.68,
+        "text": "这边布线的话，"
+      },
+      {
+        "start_s": 4.48,
+        "end_s": 7.2,
+        "text": "这个 power cord 我这边插有什么讲究吗？"
+      },
+      {
+        "start_s": 12.16,
+        "end_s": 12.96,
+        "text": "就近接，OK。"
+      },
+      {
+        "start_s": 12.96,
+        "end_s": 34.72,
+        "text": "哦，"
+      },
+      {
+        "start_s": 34.8,
+        "end_s": 39.52,
+        "text": "亮了。好，第一次，我的第一次，"
+      },
+      {
+        "start_s": 40.08,
+        "end_s": 42.56,
+        "text": "我的亲手点燃的第一个 server。"
+      }
+    ],
+    "id": "asset-0081",
+    "path": "media/originals/asset-0081.mov"
+  }
+]

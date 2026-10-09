@@ -1,0 +1,119 @@
+{
+  "duration": 15,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "frames": 450,
+  "cuts": [
+    {
+      "kind": "hook",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 22.32,
+      "source_end_s": 23.22,
+      "from": 0,
+      "frames": 27,
+      "media": "40-2232-27.mp4",
+      "speech": false,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "explore",
+      "position": 37,
+      "asset_id": "asset-0038",
+      "source_file": "asset-0038.mov",
+      "source_start_s": 10,
+      "source_end_s": 11.8,
+      "from": 27,
+      "frames": 54,
+      "media": "37-1000-54.mp4",
+      "speech": false,
+      "layout": "cover",
+      "focus": 0.43
+    },
+    {
+      "kind": "ghost",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 12.32,
+      "source_end_s": 15.12,
+      "from": 81,
+      "frames": 84,
+      "media": "40-1232-84.mp4",
+      "speech": true,
+      "layout": "cover",
+      "focus": 0.53
+    },
+    {
+      "kind": "reveal",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 22.16,
+      "source_end_s": 26.96,
+      "from": 165,
+      "frames": 144,
+      "media": "40-2216-144.mp4",
+      "speech": true,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "games",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 31,
+      "source_end_s": 31.8,
+      "from": 309,
+      "frames": 24,
+      "media": "40-3100-24.mp4",
+      "speech": false,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "payoff",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 44.4,
+      "source_end_s": 48.3,
+      "from": 333,
+      "frames": 117,
+      "media": "40-4440-117.mp4",
+      "speech": true,
+      "layout": "cover",
+      "focus": 0.54
+    }
+  ],
+  "captions": [
+    {
+      "from": 86,
+      "frames": 77,
+      "text": "Is this place haunted?",
+      "source_start_s": 12.48,
+      "source_end_s": 15.04
+    },
+    {
+      "from": 170,
+      "frames": 134,
+      "text": "There are arcade machines in this data center!",
+      "source_start_s": 22.32,
+      "source_end_s": 26.8
+    },
+    {
+      "from": 338,
+      "frames": 108,
+      "text": "I thought this place was haunted!",
+      "source_start_s": 44.56,
+      "source_end_s": 48.16
+    }
+  ],
+  "caption_source": "Human translation of indexed Chinese dialogue, aligned to source time; no cloned speech.",
+  "story_id": "demo-ai-data-center",
+  "story_ai_version": 10
+}

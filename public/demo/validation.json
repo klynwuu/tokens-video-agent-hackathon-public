@@ -1,0 +1,38 @@
+[
+  {
+    "file": "nbox-15s.mp4",
+    "duration_s": 15.019,
+    "width": 1080,
+    "height": 1920,
+    "frames": 450,
+    "audio": [
+      "mean_volume: -22.4 dB",
+      "max_volume: -1.6 dB"
+    ],
+    "sha256": "ae0e10e4a88a465b857a62130aecf50a5df93dd9d3f3b8dbe9ddfd5bfa2d1eae"
+  },
+  {
+    "file": "nbox-30s.mp4",
+    "duration_s": 30.016,
+    "width": 1080,
+    "height": 1920,
+    "frames": 900,
+    "audio": [
+      "mean_volume: -21.8 dB",
+      "max_volume: -1.7 dB"
+    ],
+    "sha256": "a00b6b46954f8c278fda0cc799920e483157dc38421f2ed21847ae6cef061777"
+  },
+  {
+    "file": "ai-editor-process.mp4",
+    "duration_s": 70.016,
+    "width": 1920,
+    "height": 1080,
+    "frames": 2100,
+    "audio": [
+      "mean_volume: -29.0 dB",
+      "max_volume: -1.6 dB"
+    ],
+    "sha256": "e377b2b54b5b12a79b533b00fa1cceeb76909a1d034b55c71c40b44bb506f825"
+  }
+]

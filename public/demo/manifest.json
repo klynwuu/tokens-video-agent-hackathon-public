@@ -1,0 +1,47 @@
+{
+  "story_id": "demo-ai-data-center",
+  "story_ai_version": 10,
+  "workflow": "Paced workflow reconstruction from the actual edit decision list; not an OS screen capture or a live model run.",
+  "files": [
+    {
+      "path": "videos/nbox-15s.mp4",
+      "size_bytes": 17622874,
+      "sha256": "ae0e10e4a88a465b857a62130aecf50a5df93dd9d3f3b8dbe9ddfd5bfa2d1eae"
+    },
+    {
+      "path": "videos/nbox-30s.mp4",
+      "size_bytes": 31471431,
+      "sha256": "a00b6b46954f8c278fda0cc799920e483157dc38421f2ed21847ae6cef061777"
+    },
+    {
+      "path": "videos/ai-editor-process.mp4",
+      "size_bytes": 11720511,
+      "sha256": "e377b2b54b5b12a79b533b00fa1cceeb76909a1d034b55c71c40b44bb506f825"
+    }
+  ],
+  "ui_skin": "Finalized Classic console portal: silver chrome, purple background, cyan highlights",
+  "process_duration_s": 70,
+  "source_playback": [
+    {
+      "filename": "asset-0041.mov",
+      "source_in_s": 22.16,
+      "source_out_s": 26.96,
+      "source_duration_s": 55.424,
+      "use": "arcade reveal; kept 4.80 seconds"
+    },
+    {
+      "filename": "asset-0038.mov",
+      "source_in_s": 10.0,
+      "source_out_s": 11.8,
+      "source_duration_s": 54.187,
+      "use": "corridor; kept 1.80 seconds"
+    },
+    {
+      "filename": "asset-0079.mov",
+      "source_in_s": 1.5,
+      "source_out_s": 3.5,
+      "source_duration_s": 7.367,
+      "use": "access gate in the 30-second version; kept 2.00 seconds"
+    }
+  ]
+}

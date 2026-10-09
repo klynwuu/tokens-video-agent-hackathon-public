@@ -1,0 +1,196 @@
+{
+  "duration": 30,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "frames": 900,
+  "cuts": [
+    {
+      "kind": "hook",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 24.8,
+      "source_end_s": 26,
+      "from": 0,
+      "frames": 36,
+      "media": "40-2480-36.mp4",
+      "speech": false,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "access",
+      "position": 79,
+      "asset_id": "asset-0079",
+      "source_file": "asset-0079.mov",
+      "source_start_s": 1.5,
+      "source_end_s": 3.5,
+      "from": 36,
+      "frames": 60,
+      "media": "79-150-60.mp4",
+      "speech": false,
+      "layout": "cover",
+      "focus": 0.5
+    },
+    {
+      "kind": "explore",
+      "position": 37,
+      "asset_id": "asset-0038",
+      "source_file": "asset-0038.mov",
+      "source_start_s": 9,
+      "source_end_s": 11,
+      "from": 96,
+      "frames": 60,
+      "media": "37-900-60.mp4",
+      "speech": false,
+      "layout": "cover",
+      "focus": 0.44
+    },
+    {
+      "kind": "noise",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 8.5,
+      "source_end_s": 11.9,
+      "from": 156,
+      "frames": 102,
+      "media": "40-850-102.mp4",
+      "speech": true,
+      "layout": "cover",
+      "focus": 0.51
+    },
+    {
+      "kind": "ghost",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 12.32,
+      "source_end_s": 15.12,
+      "from": 258,
+      "frames": 84,
+      "media": "40-1232-84.mp4",
+      "speech": true,
+      "layout": "cover",
+      "focus": 0.53
+    },
+    {
+      "kind": "reveal",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 22.16,
+      "source_end_s": 26.96,
+      "from": 342,
+      "frames": 144,
+      "media": "40-2216-144.mp4",
+      "speech": true,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "games",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 30.3,
+      "source_end_s": 34.5,
+      "from": 486,
+      "frames": 126,
+      "media": "40-3030-126.mp4",
+      "speech": true,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "bike",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 37.36,
+      "source_end_s": 41.76,
+      "from": 612,
+      "frames": 132,
+      "media": "40-3736-132.mp4",
+      "speech": true,
+      "layout": "wide",
+      "focus": 0.5
+    },
+    {
+      "kind": "payoff",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 44.3,
+      "source_end_s": 48.3,
+      "from": 744,
+      "frames": 120,
+      "media": "40-4430-120.mp4",
+      "speech": true,
+      "layout": "cover",
+      "focus": 0.54
+    },
+    {
+      "kind": "end",
+      "position": 40,
+      "asset_id": "asset-0041",
+      "source_file": "asset-0041.mov",
+      "source_start_s": 24.8,
+      "source_end_s": 26,
+      "from": 864,
+      "frames": 36,
+      "media": "40-2480-36.mp4",
+      "speech": false,
+      "layout": "wide",
+      "focus": 0.5
+    }
+  ],
+  "captions": [
+    {
+      "from": 160,
+      "frames": 96,
+      "text": "Something's making a noise...",
+      "source_start_s": 8.64,
+      "source_end_s": 11.84
+    },
+    {
+      "from": 263,
+      "frames": 77,
+      "text": "Is this place haunted?",
+      "source_start_s": 12.48,
+      "source_end_s": 15.04
+    },
+    {
+      "from": 347,
+      "frames": 134,
+      "text": "There are arcade machines in this data center!",
+      "source_start_s": 22.32,
+      "source_end_s": 26.8
+    },
+    {
+      "from": 489,
+      "frames": 120,
+      "text": "X-Men... and Street Fighter!",
+      "source_start_s": 30.4,
+      "source_end_s": 34.4
+    },
+    {
+      "from": 614,
+      "frames": 127,
+      "text": "And a motorcycle game! That explains it.",
+      "source_start_s": 37.44,
+      "source_end_s": 41.68
+    },
+    {
+      "from": 752,
+      "frames": 108,
+      "text": "I thought this place was haunted!",
+      "source_start_s": 44.56,
+      "source_end_s": 48.16
+    }
+  ],
+  "caption_source": "Human translation of indexed Chinese dialogue, aligned to source time; no cloned speech.",
+  "story_id": "demo-ai-data-center",
+  "story_ai_version": 10
+}

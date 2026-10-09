@@ -1,0 +1,264 @@
+/* Classic console portal skin. Layout, cartridges and behavior stay in the base files. */
+:root {
+  --paper: #08070f;
+  --ink: #eef0fb;
+  --red: #237bd5;
+  --olive: #92ddff;
+  --muted: #a7acc5;
+  --line: #494b65;
+  --classic-cyan: #55f1ff;
+  --classic-blue: #1674ca;
+  --classic-purple: #7761d8;
+  --classic-silver: #c8cad8;
+}
+
+body {
+  background-color: #08070f;
+  background-image: url('assets/classic-background.svg');
+  background-size: 1600px 1000px;
+  background-position: center top;
+  background-attachment: fixed;
+  color: #edf0ff;
+}
+
+button:focus-visible, a:focus-visible, select:focus-visible,
+textarea:focus-visible, input:focus-visible {
+  outline-color: var(--classic-cyan);
+}
+
+.topbar {
+  color: #292d42;
+  background: linear-gradient(#eef0f6 0%, #d0d2df 12%, #c6c8d5 88%, #b6b8c8 100%);
+  border-bottom-color: #6b6d86;
+  box-shadow: inset 0 3px #fafbff, inset 0 -3px #eceef7, 0 3px #262637;
+}
+.brand-mark { background: #6752b8; color: #fff; }
+.top-tagline { border-left-color: #9d9fb1; color: #5a5d74; }
+.top-tagline strong { color: #494164; }
+.local-badge { color: #3b4160; }
+.local-badge i, .connected-dot { background: #44da8b; box-shadow: 0 0 0 1px #24613e; }
+.settings-button {
+  color: #3c3c54;
+  background: linear-gradient(#eff0f6, #b9bccd);
+  border-color: #fafbff #74778e #6c6f85 #f2f4fd;
+  box-shadow: 1px 2px 0 #8b8da5;
+}
+.settings-button span { color: #62667d; }
+
+.intro {
+  padding-left: 14px;
+  padding-right: 14px;
+  background: linear-gradient(#fff, #eff0f8);
+  color: #232639;
+  box-shadow: 0 0 0 2px #e6e6f0, 0 0 0 4px #77758c, 0 5px 0 3px #101020;
+}
+.intro .eyebrow { color: #6a628a; }
+.intro h1 { color: #292c40; }
+.intro h1 span { color: #5a48ac; }
+.intro p { color: #77738c; }
+.level-indicator { color: #7a748c; }
+.level-indicator strong { color: #524783; }
+.level-pixel { color: #7661c7; }
+
+.panel-kicker { color: #e1e4f6; }
+.panel-kicker button { color: #b2bbec; }
+.field-label { color: #b6b9d5; }
+.field-label span { background: #4f4674; color: #eee9ff; }
+select {
+  color: #33374e;
+  background: linear-gradient(#f7f8fc, #ccd0df);
+  border-color: #f8faff #797e99 #70758f #eff2fc;
+  box-shadow: 0 2px 0 #373d57;
+}
+
+/* Selection belongs to the shelf; the original gray cartridge is untouched. */
+#featuredCartridge {
+  background: linear-gradient(155deg, #23619ab0, #123a67b0);
+  outline: 2px solid var(--classic-cyan);
+  outline-offset: 1px;
+  box-shadow: inset 0 0 0 2px #5297d3, 0 0 0 4px #17508a, 0 0 17px #2fcbff35;
+  border-radius: 3px;
+}
+.slot { border-top-color: #9099b5; color: #94e9ff; }
+.slot-light { background: #5affc7; box-shadow: 0 0 7px #25dcb0; }
+.story-details .eyebrow { color: #aaa0d7; }
+.story-details h2 { color: #f3f2ff; }
+.story-details p { color: #b5b5cf; }
+.story-facts { color: #a7acc4; }
+.story-facts strong { color: #98dfff; }
+.more-label { color: #a79dd0; }
+.mini-cart > span { color: #c8c8df; }
+.mini-cart:hover .mini-shell { filter: drop-shadow(0 0 4px #75f4ff); }
+.library-note { color: #aaaec8; }
+
+.chat-panel {
+  background: #151624f5;
+  border-color: #b5b8cc;
+  box-shadow: inset 1px 1px #f5f6ff, inset -1px -1px #535a76,
+    0 0 0 3px #70758b, 0 0 0 4px #161724, 4px 5px 0 #0008;
+}
+.chat-panel > .panel-kicker {
+  color: #34384f;
+  background: linear-gradient(#e5e7f0, #bfc3d5);
+  box-shadow: inset 0 1px #fff, 0 1px #737a95;
+}
+.player-badge { background: #7560c6; color: #fff; box-shadow: 1px 1px 0 #46406d; }
+.chat-header { border-bottom-color: #3f4260; }
+.agent-avatar {
+  color: #fff;
+  background: linear-gradient(#927aec, #5c49a2);
+  border-color: #c3b8ff #54416f #4b3e6a #bdb1ed;
+  box-shadow: 2px 2px 0 #39305b;
+}
+.chat-header strong { color: #d2e6ff; }
+.chat-header div > span { color: #929abb; }
+.live-dot { background: #5af5b5; box-shadow: 0 0 5px #33c993; }
+.chat-messages { scrollbar-color: #55558d #161624; }
+.chat-date { color: #9398ba; }
+.message-label { color: #7bceef; }
+.message p { color: #e4e7f5; }
+.message.user {
+  background: linear-gradient(120deg, #194e82, #143960);
+  border-color: #40afd6;
+  box-shadow: inset 0 1px #7dc4ea30;
+}
+.message.user .message-label { color: #7febff; }
+.message.user p { color: #f0f7ff; }
+.message-chips span { color: #b7dcff; border-color: #547198; }
+.plan-strip { border-top-color: #4f4b72; }
+.plan-strip span {
+  color: #41425b;
+  background: linear-gradient(#e6e8f1, #bcc1d5);
+  box-shadow: inset 0 1px #fff, 1px 1px 0 #5a5d7c;
+}
+.chat-form textarea {
+  color: #343b54;
+  background: #f5f6fd;
+  border-color: #898fa8;
+  box-shadow: inset 1px 1px 0 #bcc3d7, inset -1px -1px 0 #fff;
+}
+.chat-form textarea::placeholder { color: #7b819a; }
+.chat-form button {
+  color: #fff;
+  background: linear-gradient(#8b74dc, #5d4aab);
+  box-shadow: inset 1px 1px #c9bbff, 1px 1px #35305d;
+}
+.quick-prompts button {
+  color: #3b4059;
+  background: linear-gradient(#eceef6, #b4bbcf);
+  border-color: #f6f8ff #787f98 #6a728c #dfe5f7;
+  box-shadow: 1px 1px 0 #33394f;
+}
+.quick-prompts button:hover { color: #202d4f; background: #c9e9ff; border-color: #70dcff; }
+.start-row {
+  background: linear-gradient(#d8dce9, #bfc3d7);
+  border-top-color: #f2f5ff;
+  box-shadow: inset 0 -2px #9199b3;
+}
+.planner-note { color: #5c5b77; }
+.start-row #planStatus { color: #3d4869; }
+.primary-button {
+  color: #fff;
+  background: linear-gradient(#258bdc, #1159ab);
+  border-color: #8af4ff #194b87 #163872 #89d7ff;
+  box-shadow: inset 1px 1px #65dcff, 2px 3px 0 #253357;
+}
+.primary-button:hover { background: linear-gradient(#39a9ee, #146bc8); }
+.primary-button .start-key { border-right-color: #8de4ff80; }
+.primary-button.finished {
+  background: linear-gradient(#249c6e, #126a52);
+  border-color: #8ffcd6 #195a45 #164638 #78e4cd;
+  box-shadow: inset 1px 1px #63e4b3, 2px 3px 0 #173f38;
+}
+.primary-button.busy {
+  background: linear-gradient(#7963c2, #48367f);
+  border-color: #c2b1ff #554381 #34274f #bcacfb;
+  box-shadow: 2px 3px 0 #33284f;
+}
+.quest-log { background: #0b0c19; color: #8acfff; box-shadow: inset 0 2px #34344f; }
+.log-header { color: #c0c8ef; }
+.log-header i { background: #525780; }
+.log-header i.active { background: #4cf2f5; }
+.log-header > span:last-child { color: #9e9ccf; }
+.work-log { scrollbar-color: #5e6097 #0b0c19; }
+.log-placeholder { color: #7a7aaf; }
+.log-placeholder span, .log-line > span { color: #64c6e6; }
+.log-line b { color: #d6ddff; }
+.log-line.error b { color: #ffb6ad; }
+.progress-track { background: #333252; }
+.progress-track i { background: repeating-linear-gradient(90deg, #5ef4ff 0, #5ef4ff 3px, #257ccf 3px, #257ccf 5px); }
+
+.preview-badge { background: #38344f; color: #c4c2e0; border-color: #666382; }
+.preview-badge.ready { background: #214b46; color: #75ffd2; box-shadow: inset 0 0 0 1px #468e78; }
+.console {
+  background: linear-gradient(130deg, #dce0ed, #b7bdd1);
+  border-color: #8f96af;
+  box-shadow: inset 2px 2px #f8faff, inset -2px -2px #9198b2,
+    0 0 0 1px #303448, 4px 5px 0 #090812aa;
+}
+.console-top { color: #4c5474; }
+.console-top i { background: #835bd7; }
+.screen { background: #090911; border-color: #292c3e; outline-color: #e7ebf6; }
+.screen video, .screen.has-video { background: #080812; }
+.screen.portrait-guide:after { border-color: #55f1ff; }
+.preview-poster { background: linear-gradient(90deg, #1f1535b8, transparent); color: #f5f4ff; }
+.screen-level, .screen-copy > span { color: #bdcfff; }
+.screen-copy h2 { color: #fff; }
+.screen-copy h2 em { color: #75e5ff; }
+.screen-copy p, .screen-bottom { color: #c2c1e5; }
+.d-pad { background: #565d76; }
+.d-pad b { color: #c9d0e8; }
+.tiny-controls > span { color: #7c82a0; }
+.tiny-controls > strong { color: #444f75; }
+.play-button {
+  color: #fff;
+  background: linear-gradient(#997be8, #674bac);
+  border-color: #bfb0ed #4e397d #493576 #bdb1ef;
+  box-shadow: 1px 2px 0 #554073;
+}
+.button-label { color: #646c91; }
+.preview-caption strong { color: #e3e2ff; }
+.preview-caption div > span { color: #a5a7c4; }
+.preview-star { color: #b09aef; }
+.edit-recipe { background: #171422df; border-color: #55516c; box-shadow: inset 0 1px #77718f; }
+.recipe-header { color: #b5acce; }
+.recipe-header button { color: #a3d6ff; }
+.beat-row { border-top-color: #4c435e; }
+.beat-number { color: #8fdcff; }
+.beat-row strong { color: #e1ddf6; }
+.beat-row div > span { color: #aaa3c0; }
+.beat-row > i { color: #bbaae6; }
+.export-button {
+  color: #eaf4ff;
+  background: linear-gradient(#1d5480, #153759);
+  border-color: #589cc0;
+  box-shadow: inset 1px 1px #88d7eb40;
+}
+.export-button small { color: #99c3e8; }
+.export-button.disabled { background: #39364e; border-color: #666076; }
+.preview-note { color: #a7a1bf; }
+.render-overlay { color: #d9d7ff; background: #18132ef2; }
+.render-overlay .loading-pixel { color: #a68ef2; }
+.render-overlay #renderPercent { color: #77eaff; }
+
+footer {
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #555974;
+  background: linear-gradient(#dce0eb, #bec3d3);
+  border-top-color: #f7f7ff;
+  box-shadow: inset 0 -2px #8e93af, 0 -2px #5e6278;
+}
+footer > span:first-child { color: #fff; background: #7261ba; box-shadow: 0 0 0 5px #7261ba, 0 0 0 6px #b6a8f2; }
+footer b { color: #fff; }
+footer i { background: #87ffe4; }
+dialog { color: #e7e8fc; background: #1c1c2e; border-color: #a6adcb; box-shadow: inset 1px 1px #e6eaff, 0 0 0 3px #646985, 7px 7px 0 #0404128c; }
+dialog::backdrop { background: #05030cd4; }
+dialog .eyebrow { color: #a3d8ff; }
+dialog h2 { color: #f4f2ff; }
+dialog p, dialog small { color: #b0afcd; }
+dialog label { color: #b8bee1; }
+.close-dialog { color: #b6b4dc; }
+dialog input { color: #383d58; background: #e7eaf6; border-color: #8189a5; }
+dialog pre { color: #c3e5ff; background: #0d1020; }
+.toast { color: #f4f5ff; background: #26395e; border-color: #62d6ff; box-shadow: 3px 3px 0 #080814b0; }

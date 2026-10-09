@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#21173e"/>
+      <stop offset=".5" stop-color="#544083"/>
+      <stop offset="1" stop-color="#27203f"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="2.6"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="#08070f"/>
+  <g fill="none" stroke="url(#ribbon)" stroke-width="22" opacity=".57" filter="url(#soft)">
+    <path d="M-140 115C170-185 430 45 308 260S70 610 350 624 650 274 540 170 690-16 918 130 1175 390 1438 255 1830 280 1695 530"/>
+    <path d="M-122 644C42 431 178 842 414 776S518 408 740 494 986 934 1196 855 1264 495 1535 590 1730 843 1692 1020"/>
+    <path d="M-144 900C76 1060 303 947 268 826S442 793 535 921 767 1064 915 907 894 643 1110 658 1447 999 1677 846"/>
+    <path d="M838-143C743 53 988 187 1083 23S1302-56 1255 181 1542 428 1674 26"/>
+  </g>
+  <g fill="none" stroke="#7870b3" stroke-width="3" opacity=".07">
+    <path d="M-140 115C170-185 430 45 308 260S70 610 350 624 650 274 540 170 690-16 918 130 1175 390 1438 255 1830 280 1695 530"/>
+    <path d="M-122 644C42 431 178 842 414 776S518 408 740 494 986 934 1196 855 1264 495 1535 590 1730 843 1692 1020"/>
+  </g>
+</svg>

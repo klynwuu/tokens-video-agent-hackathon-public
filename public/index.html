@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Video Gaming Agents · Hackathon Demo</title>
+  <style>
+    @font-face{font-family:Pixel;src:url('frontend/assets/pixel.ttf')}
+    *{box-sizing:border-box}body{margin:0;background:#201638 url('frontend/assets/classic-background.svg') center/cover fixed;color:#f7f5ff;font:17px/1.6 system-ui,sans-serif}a{color:#43edf1}header,main,footer{max-width:1220px;margin:auto;padding:28px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #8d7aaa}.brand,.eyebrow{font-family:Pixel,monospace}.brand{font-size:14px;line-height:1.8}.tag{color:#43edf1;font-size:13px;letter-spacing:2px}h1{font-size:clamp(32px,5vw,60px);line-height:1.12;max-width:800px;margin:14px 0}h2{font-size:28px;margin:0 0 12px}.intro{max-width:850px;color:#ded6f0}.eyebrow{font-size:11px;color:#43edf1}.actions{display:flex;flex-wrap:wrap;gap:14px;margin:26px 0 34px}.button{border:3px solid #43edf1;padding:13px 20px;background:#181226;box-shadow:4px 4px #07050c;text-decoration:none;font-weight:700;border-radius:5px}.button.primary{background:#43edf1;color:#171027}.grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin-top:20px}.card{border:3px solid #bdb5cf;border-radius:10px;background:#141022;padding:23px;box-shadow:6px 6px #09070f}.card p{color:#d2cbe2}.card video{width:100%;background:#060408;border-radius:5px;display:block}.shorts video{height:490px;object-fit:contain}.pill{display:inline-block;font-size:12px;border:1px solid #776b92;border-radius:5px;padding:3px 9px;color:#c6bbdc}.resources{display:flex;flex-wrap:wrap;gap:18px}.muted{font-size:14px;color:#bcb2ce}.wide{grid-column:1/-1}footer{font-size:13px;color:#bdb2d3}.video-copy{margin:12px 0 0}@media(max-width:760px){.grid{grid-template-columns:1fr}.wide{grid-column:auto}header,main,footer{padding:20px}.shorts video{height:420px}.tag{display:none}}
+  </style>
+</head>
+<body>
+<header><div class="brand">VGA / VIDEO GAMING AGENTS</div><span class="tag">HACKATHON / LOCAL PREVIEW</span></header>
+<main>
+  <p class="eyebrow">TWO AGENTS. ONE CREATIVE ADVENTURE.</p>
+  <h1>Turn footage into<br>a playable story.</h1>
+  <p class="intro">The Context Agent finds the meaning. The Video Agent makes the movie. Explore the architecture, load a sanitized Story cartridge, and play the completed edits.</p>
+  <div class="actions"><a class="button primary" href="frontend/">▶ OPEN EDITING PORTAL</a><a class="button" href="deck/">▣ ARCHITECTURE DECK</a><a class="button" href="data/ai-data-center.story.json">↗ STORY JSON</a></div>
+  <p class="muted">The portable portal loads the packaged 15- and 30-second exports. The actual recording below demonstrates the separate prototype. This preview needs no private database, cloud media or API key.</p>
+  <div class="grid">
+    <section class="card"><span class="pill">ARCHITECTURE / 2 MIN</span><h2>Context → Story → Video</h2><video controls preload="metadata" poster="videos/architecture-cover.png" src="videos/architecture-deck.mp4"></video><p class="video-copy">The existing eight-level animated architecture deck. <a href="deck/">Open the interactive deck →</a></p></section>
+    <section class="card"><span class="pill">ACTUAL RECORDING / 81 SEC</span><h2>The prototype in action</h2><video controls preload="metadata" src="videos/actual-demo-recording.mp4"></video><p class="video-copy">The actual recorded demo associated with your supplied YouTube video. <a href="https://www.youtube.com/watch?v=URz1e7PPw9Y" target="_blank" rel="noreferrer">Watch on YouTube →</a></p></section>
+    <section class="card shorts"><span class="pill">COMPLETED EXPORT / 15 SEC</span><h2>A hidden level</h2><video controls preload="metadata" poster="demo/frames/15-reveal.png" src="demo/videos/nbox-15s.mp4"><track kind="subtitles" srclang="en" label="English" src="demo/captions/nbox-15s.en.vtt"></video><p class="video-copy"><a download href="demo/videos/nbox-15s.mp4">Download MP4</a> · <a href="demo/plans/nbox-15s.edit.json">Edit decisions</a></p></section>
+    <section class="card shorts"><span class="pill">COMPLETED EXPORT / 30 SEC</span><h2>The full side quest</h2><video controls preload="metadata" poster="demo/frames/30-reveal.png" src="demo/videos/nbox-30s.mp4"><track kind="subtitles" srclang="en" label="English" src="demo/captions/nbox-30s.en.vtt"></video><p class="video-copy"><a download href="demo/videos/nbox-30s.mp4">Download MP4</a> · <a href="demo/plans/nbox-30s.edit.json">Edit decisions</a></p></section>
+    <section class="card"><span class="pill">WORKFLOW RECONSTRUCTION / 70 SEC</span><h2>Inside the edit</h2><video controls preload="metadata" poster="demo/frames/editor-process.jpg" src="demo/videos/ai-editor-process.mp4"></video><p class="video-copy">A paced reconstruction from the completed edit decisions, with original source excerpts. This is separate from the actual screen recording.</p></section>
+    <section class="card"><span class="pill">MEDIA SPOTLIGHT / PUBLIC DATA</span><h2>The Story cartridge</h2><p>115 ordered Story items. 114 distinct placeholder asset IDs. Three angles, three short ideas and seven story beats, exported from the existing storage snapshot.</p><p>Private paths, identifiers, dates, locations, linked personal Stories and asset free text have been removed or replaced. Source ranges and the composition structure remain available for inspection.</p><div class="resources"><a href="data/ai-data-center.story.json">Story JSON →</a><a href="data/source-manifest.json">Source manifest →</a><a href="data/package-manifest.json">Package checksums →</a></div></section>
+  </div>
+</main>
+<footer>CONTEXT AGENT: FIND THE MEANING. VIDEO AGENT: MAKE THE MOVIE.</footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "story_id": "demo-ai-data-center",
+  "files": [
+    {
+      "path": "demo/videos/ai-editor-process.mp4",
+      "size_bytes": 11720511,
+      "sha256": "e377b2b54b5b12a79b533b00fa1cceeb76909a1d034b55c71c40b44bb506f825"
+    },
+    {
+      "path": "demo/videos/nbox-15s.mp4",
+      "size_bytes": 17622874,
+      "sha256": "ae0e10e4a88a465b857a62130aecf50a5df93dd9d3f3b8dbe9ddfd5bfa2d1eae"
+    },
+    {
+      "path": "demo/videos/nbox-30s.mp4",
+      "size_bytes": 31471431,
+      "sha256": "a00b6b46954f8c278fda0cc799920e483157dc38421f2ed21847ae6cef061777"
+    },
+    {
+      "path": "videos/actual-demo-recording.mp4",
+      "size_bytes": 4211553,
+      "sha256": "b9c317426c7ecfb3193f25cf2334ca24aaa8930ccda8944fb1cab66d08f039b7"
+    },
+    {
+      "path": "videos/architecture-deck.mp4",
+      "size_bytes": 12897466,
+      "sha256": "66d0cf5b1b6364fdb2f65907e5efbc8464cf7da8a1621ebcfff601567fc998f5"
+    }
+  ]
+}
